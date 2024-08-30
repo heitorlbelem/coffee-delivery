@@ -21,10 +21,7 @@ export const HeaderContainer = styled.header`
       border-radius: 6px;
       background-color: ${(props) => props.theme["purple-light"]};
       color: ${(props) => props.theme["purple-dark"]};
-
-      font-size: 1.4rem;
-      line-height: 1.3;
-      font-family: "Roboto", sans-serif;
+      font: var(--text-sm);
 
       svg {
         color: ${(props) => props.theme.purple};
