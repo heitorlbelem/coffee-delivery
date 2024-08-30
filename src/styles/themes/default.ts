@@ -1,3 +1,6 @@
+const ffTitle = "'Baloo 2', sans-serif";
+const ffText = "'Roboto', sans-serif";
+
 export const defaultTheme = {
   "yellow-light": "#F1E9C9",
   yellow: "#DBAC2C",
@@ -18,4 +21,19 @@ export const defaultTheme = {
 
   background: "#FAFAFA",
   white: "#FFFFFF",
+
+  "title-xl": `800 4.8rem/1.3 ${ffTitle}`,
+  "title-lg": `800 3.2rem/1.3 ${ffTitle}`,
+  "title-md": `800 2.4rem/1.3 ${ffTitle}`,
+  "title-sm": `700 2rem/1.3 ${ffTitle}`,
+  "title-xs": `700 1.8rem/1.3 ${ffTitle}`,
+
+  "text-lg": `400 2rem/1.3 ${ffText}`,
+  "text-md": `400 1.6rem/1.3 ${ffText}`,
+  "text-sm": `400 1.4rem/1.3 ${ffText}`,
+  "text-xs": `700 1.2rem/1.3 ${ffText}`,
+
+  tag: `7001rem/1.3 ${ffText}`,
+  "button-lg": `700 1.4rem/1.6 ${ffText}`,
+  "button-md": `400 1.2rem/1.6 ${ffText}`,
 };

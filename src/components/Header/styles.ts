@@ -21,7 +21,7 @@ export const HeaderContainer = styled.header`
       border-radius: 6px;
       background-color: ${(props) => props.theme["purple-light"]};
       color: ${(props) => props.theme["purple-dark"]};
-      font: var(--text-sm);
+      font: ${(props) => props.theme["text-sm"]};
 
       svg {
         color: ${(props) => props.theme.purple};
