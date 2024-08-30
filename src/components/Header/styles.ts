@@ -5,7 +5,9 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
 
-  padding: 3.2rem 16rem;
+  padding: 3.2rem 1.6rem;
+  width: min(100%, 1120px);
+  margin-inline: auto;
 
   nav {
     display: flex;
@@ -45,5 +47,7 @@ export const HeaderContainer = styled.header`
 `;
 
 export const MainContainer = styled.div`
-  padding-inline: 16rem;
+  width: min(100%, 1280px);
+  margin-inline: auto;
+  padding-inline: 1.6rem;
 `;
