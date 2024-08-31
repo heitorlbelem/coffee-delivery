@@ -33,7 +33,7 @@ export const defaultTheme = {
   "text-sm": `400 1.4rem/1.3 ${ffText}`,
   "text-xs": `700 1.2rem/1.3 ${ffText}`,
 
-  tag: `7001rem/1.3 ${ffText}`,
+  tag: `700 1rem/1.3 ${ffText}`,
   "button-lg": `700 1.4rem/1.6 ${ffText}`,
   "button-md": `400 1.2rem/1.6 ${ffText}`,
 };
