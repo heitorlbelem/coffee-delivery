@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
 
   padding: 3.2rem 1.6rem;
-  width: min(100%, 1120px);
+  width: min(100%, 1280px);
   margin-inline: auto;
 
   nav {
@@ -50,4 +50,5 @@ export const MainContainer = styled.div`
   width: min(100%, 1280px);
   margin-inline: auto;
   padding-inline: 1.6rem;
+  padding-bottom: 3.2rem;
 `;
