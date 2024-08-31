@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AboutContainer = styled.section`
+export const BannerContainer = styled.section`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -8,7 +8,7 @@ export const AboutContainer = styled.section`
   margin-top: 9.4rem;
 
   & > div {
-    width: 600px;
+    max-width: 60rem;
     h1 {
       font: ${(props) => props.theme["title-xl"]};
       color: ${(props) => props.theme["base-title"]};

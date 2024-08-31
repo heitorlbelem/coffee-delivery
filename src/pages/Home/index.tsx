@@ -2,7 +2,7 @@ import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
 import coffeePrincipal from "../../assets/images/principal.png";
 import { defaultTheme } from "../../styles/themes/default";
 import {
-  AboutContainer,
+  BannerContainer,
   CardsGrid,
   CoffeeCard,
   FeatureItem,
@@ -17,7 +17,7 @@ import { CountButton } from "../../components/CountButton";
 export function Home() {
   return (
     <>
-      <AboutContainer>
+      <BannerContainer>
         <div>
           <h1>Encontre o café perfeito para qualquer hora do dia</h1>
           <p>
@@ -44,7 +44,7 @@ export function Home() {
         </div>
 
         <img src={coffeePrincipal} alt="" />
-      </AboutContainer>
+      </BannerContainer>
 
       <ProductsContainer>
         <h2>Nossos cafés</h2>
