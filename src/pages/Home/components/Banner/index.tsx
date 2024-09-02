@@ -1,6 +1,6 @@
 import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
-import coffeePrincipal from "../../../assets/images/principal.png";
-import { defaultTheme } from "../../../styles/themes/default";
+import coffeePrincipal from "../../../../assets/images/principal.png";
+import { defaultTheme } from "../../../../styles/themes/default";
 import { BannerContainer, FeatureItem, FeaturesContainer } from "./styles";
 
 export function Banner() {
