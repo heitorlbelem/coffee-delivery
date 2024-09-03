@@ -82,6 +82,7 @@ export const CardPricing = styled.div`
     display: flex;
     align-items: center;
     gap: 0.8rem;
+    width: fit-content;
   }
 `;
 
@@ -100,4 +101,11 @@ export const ShoppingCartButton = styled.button`
   background: ${(props) => props.theme["purple-dark"]};
   color: ${(props) => props.theme["base-card"]};
   border-radius: 6px;
+  cursor: pointer;
+
+  transition: background-color 200ms;
+
+  &:hover {
+    background-color: ${(props) => props.theme["purple"]};
+  }
 `;
