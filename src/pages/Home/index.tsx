@@ -1,7 +1,7 @@
 import { CardsGrid, ProductsContainer } from "./styles";
 
 import { Banner } from "./components/Banner";
-import { CoffeeCard } from "./components/CoffeeCard";
+import { Card } from "./components/Card";
 
 export function Home() {
   return (
@@ -10,7 +10,7 @@ export function Home() {
       <ProductsContainer>
         <h2>Nossos cafés</h2>
         <CardsGrid>
-          <CoffeeCard />
+          <Card />
         </CardsGrid>
       </ProductsContainer>
     </>

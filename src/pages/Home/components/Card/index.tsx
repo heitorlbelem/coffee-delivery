@@ -1,22 +1,31 @@
 import { ShoppingCart } from "phosphor-react";
 import { CountButton } from "../../../../components/CountButton";
-import { Card, ShoppingCartButton } from "./styles";
+import {
+  CardDescription,
+  CardImage,
+  CardPricing,
+  CardWrapper,
+  ShoppingCartButton,
+} from "./styles";
 
 import traditionalCoffee from "../../../../assets/images/traditional.png";
 
-export function CoffeeCard() {
+export function Card() {
   return (
-    <Card>
-      <figure>
+    <CardWrapper>
+      <CardImage>
         <img src={traditionalCoffee} alt="Café tradicional" />
         <figcaption>
           <span>Tradicional</span>
         </figcaption>
-      </figure>
-      <h3>Expresso Tradicional</h3>
-      <p>O tradicional café feito com água quente e grãos moídos</p>
+      </CardImage>
 
-      <div>
+      <CardDescription>
+        <h3>Expresso Tradicional</h3>
+        <p>O tradicional café feito com água quente e grãos moídos</p>
+      </CardDescription>
+
+      <CardPricing>
         <span>
           R$ <strong>9,90</strong>
         </span>
@@ -27,7 +36,7 @@ export function CoffeeCard() {
             <ShoppingCart size={22} weight="fill" />
           </ShoppingCartButton>
         </div>
-      </div>
-    </Card>
+      </CardPricing>
+    </CardWrapper>
   );
 }
