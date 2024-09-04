@@ -8,26 +8,35 @@ import {
   ShoppingCartButton,
 } from "./styles";
 
+interface CardProps {
+  name: string;
+  description: string;
+  price: string;
+  tags: string[];
+}
+
 import traditionalCoffee from "../../../../assets/images/traditional.png";
 
-export function Card() {
+export function Card({ description, name, price, tags }: CardProps) {
   return (
     <CardWrapper>
       <CardImage>
         <img src={traditionalCoffee} alt="Café tradicional" />
         <figcaption>
-          <span>Tradicional</span>
+          {tags.map((tag) => {
+            return <span>{tag}</span>;
+          })}
         </figcaption>
       </CardImage>
 
       <CardDescription>
-        <h3>Expresso Tradicional</h3>
-        <p>O tradicional café feito com água quente e grãos moídos</p>
+        <h3>{name}</h3>
+        <p>{description}</p>
       </CardDescription>
 
       <CardPricing>
         <span>
-          R$ <strong>9,90</strong>
+          R$ <strong>{price}</strong>
         </span>
 
         <div>
